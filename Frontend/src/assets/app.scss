@@ -1,0 +1,712 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Kadwa:wght@400;700&family=Redressed&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Kadwa:wght@400;700&family=Ledger&family=Redressed&family=Roboto&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.nav-link,
+.row {
+  font-family: Ledger;
+}
+.nav-item {
+  text-align: left;
+}
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  background-color: white;
+  color: $dark;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a {
+  text-decoration: none;
+  color: #3e5e65;
+}
+
+.title-of-h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+  color: white;
+  background-color: #325d62;
+}
+
+.input-group-append {
+  cursor: pointer;
+}
+
+.tab-content,
+.disabled-tab-0 a:active,
+.LogButton {
+  background-color: rgba(153, 189, 193, 1);
+}
+
+h1 {
+  font-variant: small-caps;
+  font-family: Ledger;
+}
+
+#SubmitButton {
+  display: block;
+  margin: auto 0 auto 0;
+  background-color: rgba(153, 189, 193, 1);
+  color: white;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(153, 189, 193, 1);
+  color: black;
+}
+#sidebar {
+  top: 0;
+  position: sticky;
+}
+#sidebar-nav a:hover {
+  color: white;
+  background-color: rgba(153, 189, 193, 1);
+}
+
+.footer_email_phone_address {
+  font-size: 80%;
+}
+
+.footer_hr {
+  border: 2px white solid;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.footer_p {
+  font-size: 80%;
+  text-align: right;
+}
+
+.footer_span {
+  font-family: Inspiration;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.nav-tabs .nav-link,
+.nav-link,
+.LogSingButton,
+.dropdown-item,
+#footer_link_follow_us,
+.dropdown-toggle,
+.nav-link.show {
+  color: black;
+}
+
+.card {
+  background-color: #d5e4e6;
+}
+
+.card-text {
+  background-color: white;
+}
+
+nav,
+footer,
+.dropdown-menu {
+  background-color: rgba(202, 240, 193, 1);
+}
+.ExitButton {
+  border: 1px solid black;
+  color: black;
+}
+
+.OPK {
+  font-family: Inspiration;
+  color: black;
+  font-size: 120%;
+}
+
+.SignButton {
+  background-color: rgba(112, 162, 167, 1);
+}
+thead {
+  background-color: rgb(1, 93, 103);
+  color: white;
+}
+
+.modal-title {
+  text-align: $dark;
+}
+.modal-body {
+  text-align: justify;
+}
+h2 .mt-3,
+h3 .mt-3,
+h1 .modal-title,
+.CalculatorCard .card-title {
+  font-variant: small-caps;
+}
+.progress .mt-2 {
+  height: 30px;
+  background-color: white;
+}
+.AftreProgressP p {
+  float: left;
+}
+p .pt-0 {
+  font-size: 85%;
+}
+.CalculatorCard .card-subtitle {
+  font-style: italic;
+}
+.btn-close {
+  text-align: $dark;
+}
+
+.ButtonPDF {
+  display: block;
+  margin: auto 0 auto auto;
+  background-color: #12633d;
+  color: white;
+}
+.ButtonPDF:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+.page-link.active,
+.active > .page-link {
+  background-color: #0250c5;
+}
+.DeleteBagde {
+  background-color: #a91e2c;
+}
+.EditBagde {
+  background-color: #12633d;
+}
+
+.input-group {
+  position: fixed;
+  /* relative */
+  display: contents;
+  /* block*/
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.scrollspy-example {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+#aboutUsTitle {
+  color: gray;
+  font-family: Ledger;
+}
+
+#aboutUsParagraph {
+  font-weight: bold;
+  font-size: 190%;
+}
+
+#aboutUsImage {
+  width: 70%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+#abouUsButtonRouteMain {
+  background-color: #325d62;
+  color: white;
+}
+
+#aboutUsResponseDiv {
+  background-color: rgba(153, 189, 193, 20%);
+}
+
+.editH1Title {
+  position: relative;
+  top: 5rem;
+}
+
+#mainButtonRegister {
+  background-color: #70a2a7;
+  a {
+    color: black;
+  }
+}
+
+#mainButtonLogin {
+  background-color: rgba(153, 189, 193, 1);
+  a {
+    color: black;
+  }
+}
+
+#mainTitle2 {
+  color: #2d6321;
+}
+
+#userLoading,
+#calculatorLoading {
+  position: relative;
+  top: 5rem;
+}
+
+#userDiv,
+.aboutUsScrollDiv {
+  background-color: rgba(153, 189, 193, 40%);
+}
+
+#navLinkBg:hover {
+  background-color: rgba(153, 189, 193, 0.4);
+  border-radius: 5%;
+  color: white;
+}
+
+#footer_link_follow_us:hover {
+  color: white;
+  background-color: rgba(1, 93, 103, 30%);
+  border-radius: 20%;
+  padding: 2px;
+}
+
+#footer_link_follow_us svg:hover {
+  margin: 3px;
+}
+
+#footer_link {
+  color: black;
+  text-decoration: underline;
+}
+.bi-person-circle,
+.bi-list {
+  font-size: 2rem;
+}
+
+#footer_link:hover {
+  background-color: rgba(1, 93, 103, 30%);
+  border-radius: 20%;
+  padding: 1px;
+}
+
+p::selection,
+.bek::selection,
+p span::selection,
+.footer_link::selection {
+  background-color: #015d67;
+  color: white;
+}
+
+h6::selection,
+h5::selection,
+h5 span::selection {
+  background-color: rgba(1, 93, 103, 30%);
+  color: white;
+}
+
+p {
+  text-align: justify;
+}
+
+.progress-training {
+  background-color: #12633d;
+}
+
+.pagination-nav {
+  float: right;
+  background-color: white;
+}
+
+.page-item a,
+.pag-item .pag-link {
+  background-color: rgba(153, 189, 193, 0.44);
+  color: black;
+}
+
+#main_img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: block;
+  margin: auto 0 auto 0;
+}
+
+.img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+.img-wrapper img {
+  vertical-align: middle;
+  transition: all 0.2s ease;
+}
+
+.img-wrapper img:hover {
+  animation: pulse 1s 2;
+}
+
+.zoom:hover,
+.zoom .btn:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.05);
+}
+.mainH1 {
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 576px) {
+  .mainH1 {
+    font-size: 60px;
+  }
+}
+
+.summaryDiv {
+  position: relative;
+  top: 5rem;
+}
+
+#labelFormLogSign {
+  background-color: rgba(202, 240, 193, 50%);
+}
+
+$dark: #171717;
+$mode-toggle-bg: #262626;
+
+body {
+  &.dark-mode {
+    background-color: lighten($dark, 5%);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    .nav-link,
+    .card-title,
+    .OPK,
+    svg,
+    a,
+    li,
+    .formkit-label,
+    .dropdown-item,
+    .dropdown-toggle,
+    .nav-link.show,
+    button,
+    label {
+      color: white;
+    }
+
+    h1::selection,
+    h2::selection,
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection {
+      background-color: white;
+      color: #015d67;
+    }
+
+    .card-text {
+      background-color: lighten($dark, 5%);
+      color: white;
+    }
+
+    .card,
+    nav,
+    footer,
+    .tab-content,
+    .dropdown-menu {
+      background-color: #015d67;
+    }
+
+    #aboutUsTitle {
+      color: #b0b0b0;
+      font-family: Ledger;
+    }
+
+    #userDiv {
+      background-color: #4d5a5cff;
+    }
+
+    .LogSingButton {
+      color: black;
+    }
+
+    .LogButton {
+      background-color: #4ba2b4;
+    }
+
+    .SignButton {
+      background-color: #1aa5c1;
+    }
+
+    .title-of-h2 {
+      color: white;
+      background-color: #015d67;
+    }
+
+    #mainButtonLogin {
+      background-color: #3c5b62;
+      a {
+        color: white;
+      }
+    }
+    #mainButtonRegister {
+      background-color: #015d67;
+      a {
+        color: white;
+      }
+      color: white;
+    }
+
+    #mainTitle2 {
+      color: #65c44f;
+    }
+
+    #sidebar-nav a {
+      background-color: lighten($dark, 5%);
+
+      i {
+        color: white;
+      }
+
+      span {
+        color: white;
+      }
+    }
+    #sidebar-nav a:hover {
+      color: white;
+      background-color: #015d67;
+    }
+
+    .nav-tabs .nav-link.active {
+      background-color: #015d67;
+      color: white;
+    }
+
+    #SubmitButton {
+      background-color: #015d67;
+      color: white;
+    }
+
+    td {
+      background-color: lighten($dark, 5%);
+      color: white;
+    }
+
+    .bi-person-circle {
+      font-size: 2rem;
+      color: white;
+    }
+
+    .dropdown-item:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .ExitButton {
+      border: 1px solid white;
+    }
+
+    .modal-content {
+      background-color: lighten($dark, 5%);
+      color: white;
+    }
+
+    .pagination-nav {
+      background-color: lighten($dark, 5%);
+    }
+    #summary_h2 {
+      background-color: rgb(153, 189, 193);
+      color: #171717;
+    }
+
+    label {
+      color: white;
+    }
+
+    button {
+      color: white;
+    }
+
+    @media only screen and (min-width: 768px) {
+      .loginDiv,
+      #signInDiv {
+        width: 50%;
+        display: block;
+        margin: 0 auto 0 auto;
+        background-color: rgb(1, 93, 103);
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .loginDiv,
+      #signInDiv {
+        display: block;
+        margin: 0 auto 0 auto;
+      }
+    }
+
+    #labelFormLogSign {
+      background-color: rgb(153, 189, 193);
+      color: black;
+    }
+
+    .SignButton:hover {
+      background-color: rgba(112, 162, 167, 1);
+      color: black;
+    }
+    .LogButton {
+      background-color: rgba(153, 189, 193, 1);
+      color: black;
+    }
+    .zoom:hover,
+    .zoom .btn:hover {
+      -ms-transform: scale(1.5);
+      /* IE 9 */
+      -webkit-transform: scale(1.5);
+      /* Safari 3-8 */
+      transform: scale(1.05);
+      color: white;
+    }
+  }
+}
+
+.mode-toggle {
+  position: relative;
+  padding: 0;
+  width: 44px;
+  height: 24px;
+  min-width: 36px;
+  min-height: 20px;
+  background-color: $mode-toggle-bg;
+  border: 0;
+  border-radius: 24px;
+  outline: 0;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+  background-color: #f0f5f6;
+  -webkit-touch-callout: none;
+  appearance: none;
+  transition: background-color 0.5s ease;
+
+  .toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    box-shadow: inset 0 0 0 2px #a5abba;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+
+    #dark-mode {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 50%;
+
+      &:before {
+        content: "";
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 50%;
+        float: left;
+        background-color: #a5abba;
+        transition: border-radius 0.5s ease, width 0.5s ease, height 0.5s ease,
+          left 0.5s ease, transform 0.5s ease;
+      }
+    }
+  }
+}
+
+body.dark-mode {
+  .mode-toggle {
+    background-color: lighten($mode-toggle-bg, 5%);
+
+    .toggle {
+      transform: translateX(19px);
+
+      #dark-mode {
+        &:before {
+          border-radius: 50%;
+          width: 150%;
+          height: 85%;
+          left: 40%;
+          transform: translate(-10%, -40%), rotate(-35deg);
+        }
+      }
+    }
+  }
+
+  #footer_link_follow_us:hover {
+    color: black;
+    background-color: rgba(112, 162, 167, 1);
+    border-radius: 20%;
+  }
+
+  #footer_link {
+    color: white;
+  }
+
+  p::selection,
+  .bek::selection,
+  p span::selection,
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  h4::selection h6::selection,
+  h5::selection,
+  h5 span::selection,
+  .footer_link::selection {
+    background-color: white;
+    color: #015d67;
+    font-weight: bold;
+  }
+
+  .pagination-nav {
+    float: right;
+  }
+
+  .page-item a,
+  .pag-item .pag-link {
+    background-color: #015d67;
+    color: white;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .loginDiv,
+  #signInDiv {
+    width: 50%;
+    display: block;
+    margin: 0 auto 0 auto;
+    background-color: rgba(202, 240, 193, 30%);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .loginDiv,
+  #signInDiv {
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+}
